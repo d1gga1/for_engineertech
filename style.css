@@ -16,7 +16,7 @@ nav{
   display:flex;
   align-items:center;
   justify-content: space-between;
-  padding-top:40px;
+  padding-top:20px;
   padding-left:10%;
   padding-right:10%;
 }
@@ -186,6 +186,7 @@ button:focus {
   position: absolute;
   width: calc(3 * var(--card-width));
   height: auto;
+  margin-top: 50px;
 }
 .cardList__btn {
   --btn-size: 35px;
@@ -280,6 +281,7 @@ button:focus {
   height: var(--card-height);
   pointer-events: none;
 }
+
 .infoList .info__wrapper {
   position: relative;
   width: 100%;
