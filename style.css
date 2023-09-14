@@ -410,3 +410,21 @@ button:focus {
 		}
 	}
 }
+
+/*footer*/
+
+footer {
+  background-color: none;
+  text-align: center;
+  padding: 10px 0;
+    border-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+footer p {
+  color: #fff;
+}
