@@ -86,6 +86,49 @@ button:hover{
   cursor: pointer;
 }
 
+/* -------------- text-bg + scrollbar ------------------- */
+.text-bg {
+  width: 60%;
+  background-color: #ddd;
+  display: flex;
+  z-index: 1;
+  height: 70%;
+  width: 50%;
+  box-shadow: -2px 2px 8px 0px #ddd;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.text-bg p {
+  padding: 20px;
+}
+
+.content-ab {
+  overflow-y: scroll;
+}
+
+/* Customize the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+/* Customize the scrollbar track on hover */
+::-webkit-scrollbar-track:hover {
+  background-color: #ccc; /* Color of the scrollbar track on hover */
+}
+
+/* Customize the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+
+
 
 /**/
 
@@ -430,3 +473,4 @@ footer {
 footer p {
   color: #fff;
 }
+

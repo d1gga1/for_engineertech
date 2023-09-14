@@ -253,3 +253,14 @@ const waitForImages = () => {
 };
 
 waitForImages();
+
+
+// // about
+
+// const contentDiv = document.querySelector('.content-ab');
+
+// contentDiv.addEventListener('wheel', (e) => {
+//     const deltaY = e.deltaY;
+//     contentDiv.scrollTop += deltaY;
+//     e.preventDefault();
+// });
