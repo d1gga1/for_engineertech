@@ -480,3 +480,14 @@ footer p {
   color: #fff;
 }
 
+/* translate buttons */
+
+.translate {
+  display: flex;
+  flex-direction: column;
+}
+
+.translate-btn {
+  margin: 10px 20px;
+
+}
