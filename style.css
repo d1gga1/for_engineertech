@@ -90,21 +90,27 @@ button:hover{
 .text-bg {
   width: 60%;
   background-color: #ddd;
-  display: flex;
   z-index: 1;
   height: 70%;
-  width: 50%;
-  box-shadow: -2px 2px 8px 0px #ddd;
-  overflow: hidden;
-  margin-top: 40px;
+  width: 60%;
+  box-shadow: -2px -2px 8px 0px #ddd;
+  margin-top: 90px;
+  /* bottom: -100%; */
+  /* animation: slideIn 5s ease 1s forwards; */
+  overflow-y: scroll;
+  text-align: justify;
 }
+
+/* slide-in animation using css */
+
+/* @keyframes slideIn {
+  to {
+    bottom: 0;
+  }
+} */
 
 .text-bg p {
-  padding: 20px;
-}
-
-.content-ab {
-  overflow-y: scroll;
+  padding: 20px 30px;
 }
 
 /* Customize the scrollbar track */
