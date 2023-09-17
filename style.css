@@ -24,10 +24,12 @@ nav{
 .logo{
   color:white;
   font-size:28px;
+  text-shadow: 0 4px 6px rgba(255, 255, 255, 0.8);
 }
 
 .logo span{
   color:red;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }
 
 span:hover{
@@ -45,6 +47,8 @@ nav ul li{
   font-size: 15px;
   transition: transition 0.3s;
   border-radius: 5%;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  text-shadow: 0 4px 6px rgba(255, 255, 255, 0.8);
 }
 
 nav ul li:hover{
@@ -79,6 +83,7 @@ button{
   font-weight:bold;
   font-size:15px;
   transition:.4s;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }
 
 button:hover{
@@ -485,9 +490,24 @@ footer p {
 .translate {
   display: flex;
   flex-direction: column;
+  padding: 20px;
+    text-align: center;
+    border-top: 20px;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+
 }
 
 .translate-btn {
   margin: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.translate-btn a {
+  color: white;
+  text-decoration: none;
 
 }
+

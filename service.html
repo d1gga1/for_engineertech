@@ -1,37 +1,74 @@
 <!DOCTYPE html>
-<html lang="it">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="script.js"></script>
-        <title>Pagina con divisioni ondulate</title>
-    </head>
-    <body>
-        <header>
-            <div class="wave">
-                <nav>
-                    <h2 class="logo">
-                        DAJBOC<span>TECH</span>DON
-                    </h2>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li class="you-are-here"><a href="service.html">Service</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                    </ul>
-                    <a href="contact.html">
-                        <button type="button">Contact us</button>
-                    </a>
-                </nav>
-            </div>
+<html lang="en" >
+	<head>
+	<meta charset="UTF-8">
+	<title>CodePen - Voyage Slider | GSAP</title>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'><link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+	<!-- partial:index.partial.html -->
+	<div class="translate">
 
-        </header>
-        <main>
-            
-        </main>
-        <footer>
-            <p>© 2023 DAJBOCTECHDON - Satu Mare. All rights reserved. | Website designed by D&F Websites.</p>
-        </footer>
-    </body>
+		<button class="button translate-btn">Romana</button>
+		<button class="button translate-btn">English</button>
+	</div>
+		<div class="hdr">
+			<nav>
+				<h2 class="logo">
+					DAJBOC<span>TECH</span>DON
+				</h2>
+				<ul>
+					<li ><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="service.html">Service</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+				</ul>
+				<a href="contact.html">
+					<button type="button">Contact us</button>
+				</a>
+			</nav>
+		</div>
+		<div class="app">
+			<div class="app__bg">
+				<div class="app__bg__image current--image">
+					<img src="images/one.jpg" alt="" />
+				</div>
+				<div class="app__bg__image next--image">
+					<img src="images/two.jpg" alt="" />
+				</div>
+				<div class="app__bg__image previous--image">
+					<img src="images/three.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<svg class="icons" style="display: none;">
+			<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+				<polyline points='328 112 184 256 328 400'
+							style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+			</symbol>
+			<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+				<polyline points='184 112 328 256 184 400'
+							style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+			</symbol>
+		</svg>
+
+
+		<div class="support">
+			<a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
+			<a href="https://dribbble.com/devloop01" target="_blank"><i class="fab fa-dribbble"></i></a>
+		</div>
+		<!-- partial -->
+		<script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script><script  src="./script.js"></script>
+
+	</body>
+	<footer>
+		<p>© 2023 DAJBOCTECHDON - Satu Mare. All rights reserved. | Website designed by D&F Websites.</p>
+	</footer>
+
 </html>
