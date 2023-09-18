@@ -77,7 +77,6 @@ nav ul{
 
 button{
   border:none;
-  
   border-radius:30px;
   color:white;
   font-weight:bold;
@@ -491,11 +490,11 @@ footer p {
   display: flex;
   flex-direction: column;
   padding: 20px;
-    text-align: center;
-    border-top: 20px;
-    position: absolute;
-    left: 0;
-    z-index: 2;
+  text-align: center;
+  border-top: 20px;
+  position: absolute;
+  left: 0;
+  z-index: 2;
 
 }
 

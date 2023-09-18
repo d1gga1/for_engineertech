@@ -451,3 +451,57 @@ footer p {
     text-decoration: none;
   
   }
+
+
+.hdr{
+  display: flex;
+  flex-direction: row;
+  background-color: none;
+  padding: 20px;
+  text-align: center;
+  border-top: 20px;
+  z-index: 2;
+}
+
+.hdr nav {
+  display: flex;
+  text-align: center;
+  
+}
+
+.hdr nav div {
+  vertical-align: center;
+}
+
+.logo{
+  color:white;
+  font-size:28px;
+  text-shadow: 0 4px 6px rgba(255, 255, 255, 0.8);
+  
+}
+
+.logo span{
+  color:red;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.hdr a, .hdr button {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  margin: 5px 0px;
+  margin-left: 20px;
+  
+}
+
+.hdr a{
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
