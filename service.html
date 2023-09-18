@@ -1,74 +1,34 @@
 <!DOCTYPE html>
-<html lang="en" >
-	<head>
-	<meta charset="UTF-8">
-	<title>CodePen - Voyage Slider | GSAP</title>
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
-	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'><link rel="stylesheet" href="./style.css">
-	</head>
-	<body>
-	<!-- partial:index.partial.html -->
-	<div class="translate">
-
-		<button class="button translate-btn">Romana</button>
-		<button class="button translate-btn">English</button>
-	</div>
-		<div class="hdr">
-			<nav>
-				<h2 class="logo">
-					DAJBOC<span>TECH</span>DON
-				</h2>
-				<ul>
-					<li ><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="service.html">Service</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-				</ul>
-				<a href="contact.html">
-					<button type="button">Contact us</button>
-				</a>
-			</nav>
-		</div>
-		<div class="app">
-			<div class="app__bg">
-				<div class="app__bg__image current--image">
-					<img src="images/one.jpg" alt="" />
-				</div>
-				<div class="app__bg__image next--image">
-					<img src="images/two.jpg" alt="" />
-				</div>
-				<div class="app__bg__image previous--image">
-					<img src="images/three.jpg" alt="" />
-				</div>
-			</div>
-		</div>
-
-
-
-
-		<svg class="icons" style="display: none;">
-			<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-				<polyline points='328 112 184 256 328 400'
-							style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-			</symbol>
-			<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-				<polyline points='184 112 328 256 184 400'
-							style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-			</symbol>
-		</svg>
-
-
-		<div class="support">
-			<a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
-			<a href="https://dribbble.com/devloop01" target="_blank"><i class="fab fa-dribbble"></i></a>
-		</div>
-		<!-- partial -->
-		<script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script><script  src="./script.js"></script>
-
-	</body>
-	<footer>
-		<p>© 2023 DAJBOCTECHDON - Satu Mare. All rights reserved. | Website designed by D&F Websites.</p>
-	</footer>
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style-service.css">
+  <title>Document</title>
+</head>
+<body translate="no" class="vsc-initialized" data-new-gr-c-s-check-loaded="14.1125.0" data-gr-ext-installed="">
+    <div class="col-md-6 offset-md-3 mt-5">
+         <a target="_blank" href="https://getform.io?ref=codepenHTML">
+            <img src="https://i.imgur.com/O1cKLCn.png">
+         </a>
+          <br>
+          <form accept-charset="UTF-8" action="https://getform.io/f/{your-form-endpoint-goes-here}" method="POST" enctype="multipart/form-data" target="_blank">
+            <div class="form-group">
+              <label for="exampleInputName">Full Name</label>
+              <input type="text" name="fullname" class="form-control" id="exampleInputName" placeholder="Enter your name and surname" required="required">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1" required="required">Email address</label>
+              <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <hr>
+            <div class="form-group mt-3">
+              <label class="mr-2">Upload your CV:</label>
+              <input type="file" name="file">
+            </div>
+            <hr>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </div>
+</body>
 </html>
