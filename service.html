@@ -4,14 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style-service.css">
-  <title>Document</title>
+  <title>Servicii</title>
 </head>
-<body translate="no" class="vsc-initialized" data-new-gr-c-s-check-loaded="14.1125.0" data-gr-ext-installed="">
+<body>
+
+  <div class="app__bg">
+    <div class="app__bg__image ">
+      <img src="images/one.jpg"  />
+    </div>
+  </div>
+  <div translate="no" class="vsc-initialized" data-new-gr-c-s-check-loaded="14.1125.0" data-gr-ext-installed="">
     <div class="col-md-6 offset-md-3 mt-5">
-         <a target="_blank" href="https://getform.io?ref=codepenHTML">
-            <img src="https://i.imgur.com/O1cKLCn.png">
+         <a class="logomin" target="_blank" href="https://getform.io?ref=codepenHTML">
+            <img src="images/LOGO-DANI-removebg-preview.png">
          </a>
           <br>
+          <h1>Getform.io HTML Form Example with File Upload</h1>
+          <h5>We advise you to insert all the data you wish to send into a folder, and not send them separately , 
+            Thank you :)</h5>
           <form accept-charset="UTF-8" action="https://getform.io/f/{your-form-endpoint-goes-here}" method="POST" enctype="multipart/form-data" target="_blank">
             <div class="form-group">
               <label for="exampleInputName">Full Name</label>
@@ -24,11 +34,12 @@
             <hr>
             <div class="form-group mt-3">
               <label class="mr-2">Upload your CV:</label>
-              <input type="file" name="file">
+              <input type="file" name="file" webkitdirectory multiple>
             </div>
             <hr>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
       </div>
+  </div>
 </body>
 </html>
