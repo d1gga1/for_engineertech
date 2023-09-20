@@ -179,6 +179,8 @@ cursor: pointer;
     width: 75%;
     z-index: 4;
     margin-top: 130px;
+    max-width: 75%;
+    /* overflow: hidden; */
 }
 
 .portfolio-item {
@@ -202,23 +204,28 @@ cursor: pointer;
 
 .portfolio-image {
     width: 25%;
+    overflow: hidden;
+    position:relative;
 }
 
 .portfolio-text{
     width: 25%;
     border-right: 1px solid gray
+
 }
 
 .portfolio-hidden-text{
-    width: 0;
-    background-color: #f0f0f0;
-    overflow: hidden;
-    transition: width 0.3s;
+    width: 50%;
+    background-color: inherit;
+    overflow: hidden; 
+    
 }
 
 .portfolio-image img {
     width: 100%;
     height: 400px;
+    object-fit: cover;
+    position: absolute;
 }
 
 /* Styles for the dropdown arrow */
