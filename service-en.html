@@ -1,74 +1,82 @@
+
 <!DOCTYPE html>
-<html lang="en" >
-	<head>
-	<meta charset="UTF-8">
-	<title>DAJBOCTECHDON</title>
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
-	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'><link rel="stylesheet" href="./style.css">
-	</head>
-	<body>
-	<!-- partial:index.partial.html -->
-	<div class="translate">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style-service.css">
+  <title>Servicii</title>
+</head>
+<body>
+  <div class="translate">
 
-		<button class="button translate-btn"><a href="service.html">Romana</a></button>
-		<button class="button translate-btn"><a href="">English</a></button>
-	</div>
-		<div class="hdr">
-			<nav>
-				<h2 class="logo">
-					DAJBOC<span>TECH</span>DON
-				</h2>
-				<ul>
-					<li ><a href="index-en.html">Home</a></li>
-					<li><a href="about-en.html">About</a></li>
-					<li><a href="service-en.html">Service</a></li>
-					<li><a href="portfolio-en.html">Portfolio</a></li>
-				</ul>
-				<a href="contact-en.html">
-					<button type="button">Contact us</button>
-				</a>
-			</nav>
-		</div>
-		<div class="app">
-			<div class="app__bg">
-				<div class="app__bg__image current--image">
-					<img src="images/one.jpg" alt="" />
-				</div>
-				<div class="app__bg__image next--image">
-					<img src="images/two.jpg" alt="" />
-				</div>
-				<div class="app__bg__image previous--image">
-					<img src="images/three.jpg" alt="" />
-				</div>
-			</div>
-		</div>
+    <button class="button translate-btn"><a href="service.html">Romana</a></button>
+    <button class="button translate-btn"><a href="service-en.html">English</a></button>
+  </div>
 
+  <div class="app__bg">
+    <div class="app__bg__image ">
+      <img src="images/one.jpg"  />
+    </div>
+  </div>
 
+  <div class="hdr">
+    <nav>
+      <h2 class="logo">
+        DAJBOC<span>TECH</span>DON
+      </h2>
+      <ul>
+        <li ><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+      <a href="contact.html">
+        <button type="button">Contact</button>
+      </a>
+    </nav>
+  </div>
+  <div translate="no" class="vsc-initialized" data-new-gr-c-s-check-loaded="14.1125.0" data-gr-ext-installed="">
+    <div class="col-md-6 offset-md-3 mt-5">
+          <br>
+          <h1>Getform.io HTML Form Example with File Upload</h1>
+          <h5>We advise you to insert all the data you wish to send into a folder, and not send them separately , 
+            Thank you :)</h5>
+          <form  action="https://formsubmit.co/dandevid04@gmail.com" method="POST" enctype="multipart/form-data" target="_blank">
+            <div class="form-group">
+              <label for="exampleInputName">Full Name</label>
+              <input type="text" name="fullname" class="form-control" id="exampleInputName" placeholder="Enter your name and surname" required="required">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1" required="required">Email address</label>
+              <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <hr>
+            <div class="form-group mt-3">
+              <label class="mr-2" id="labelWithFile">Upload here:</label>
+              <input type="file" name="file"  accept="*/*" onchange="displayFileName(this);">
 
+              <script>
+                function displayFileName(input) {
+                  const label = document.getElementById("labelWithFile");
+                
+                  if (input.files && input.files[0]) {
+                    const fileName = input.files[0].name;
+                    label.textContent = `File selezionato: ${fileName}`;
+                  } else {
+                    label.textContent = "Carica un file:";
+                  }
+                }
+                </script>
 
-		<svg class="icons" style="display: none;">
-			<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-				<polyline points='328 112 184 256 328 400'
-							style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-			</symbol>
-			<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-				<polyline points='184 112 328 256 184 400'
-							style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-			</symbol>
-		</svg>
-
-
-		<div class="support">
-			<a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
-			<a href="https://dribbble.com/devloop01" target="_blank"><i class="fab fa-dribbble"></i></a>
-		</div>
-		<!-- partial -->
-		<script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script><script  src="./script.js"></script>
-
-	</body>
-	<footer>
-		<p>© 2023 DAJBOCTECHDON - Satu Mare. All rights reserved. | Website designed by D&F Websites.</p>
-	</footer>
-
+            </div>
+            <hr>
+            <button type="submit"  value="Upload File" class="btn btn-primary">Submit</button>
+          </form>
+      </div>
+  </div>
+</body>
+<footer>
+  <p>© 2023 DAJBOCTECHDON - Satu Mare. All rights reserved. | Website designed by D&F Websites.</p>
+</footer>
 </html>

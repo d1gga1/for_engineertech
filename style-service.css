@@ -3,6 +3,81 @@ body {
     padding: 0;
 }
 
+.hdr{
+    background-color: none;
+      padding: 20px;
+      text-align: center;
+      border-top: 20px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 2;
+  }
+  
+  nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top:20px;
+    padding-left:10%;
+    padding-right:10%;
+  }
+  
+  .logo{
+    color:white;
+    font-size:28px;
+    text-shadow: 0 4px 6px rgba(255, 255, 255, 0.8);
+  }
+  
+  .logo span{
+    color:red;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  }
+  
+  span:hover{
+    transform:scale(1.3);
+    cursor: pointer;
+    transition:.4s;
+  }
+  
+  nav ul li{
+    list-style-type:none;
+    display:inline-block;
+    padding:10px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: transition 0.3s;
+    border-radius: 5%;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    text-shadow: 0 4px 6px rgba(255, 255, 255, 0.8);
+  }
+  
+  nav ul li:hover{
+    transition: scale(1.3);
+  }
+  
+  nav ul li a{
+    list-style-type:none;
+    display:inline-block;
+    padding:10px 20px;
+    color:white;
+    text-decoration: none;
+    font-size:15px;
+    transition:.4s;
+    font-weight:bold;
+  }
+  
+  nav ul li a:hover{
+    transform:scale(1.3);
+    cursor: pointer;
+  }
+  
+  nav ul{
+    color: white;
+  }
+  
 .app__bg {
     position: absolute;
     width: 100%;
@@ -134,3 +209,60 @@ button, input, optgroup, select, textarea {
     font-size: inherit;
     line-height: inherit;
 }
+
+
+footer {
+    background-color: none;
+    text-align: center;
+    padding: 10px 0;
+      border-bottom: 20px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 2;
+  }
+  
+  footer p {
+    color: #fff;
+  }
+
+  .translate {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    border-top: 20px;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+  
+  }
+  
+  .translate-btn {
+    margin: 10px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .translate-btn a {
+    color: white;
+    text-decoration: none;
+  
+  }
+
+  button{
+    border:none;
+    background:none;
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+    transition:.4s;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  }
+  
+  button:hover{
+    transform:scale(1.3);
+    cursor: pointer;
+  }
+  
