@@ -8,34 +8,52 @@
   <title>Servicii</title>
 </head>
 <body>
+  <div class="translate">
+
+    <button class="button translate-btn"><a href="service.html">Romana</a></button>
+    <button class="button translate-btn"><a href="service-en.html">English</a></button>
+  </div>
 
   <div class="app__bg">
     <div class="app__bg__image ">
       <img src="images/one.jpg"  />
     </div>
   </div>
+
+  <div class="hdr">
+    <nav>
+      <h2 class="logo">
+        DAJBOC<span>TECH</span>DON
+      </h2>
+      <ul>
+        <li ><a href="index.html">Acasă</a></li>
+        <li><a href="about.html">Despre noi</a></li>
+        <li><a href="service.html">Servicii</a></li>
+        <li><a href="portfolio.html">Portofoliu</a></li>
+      </ul>
+      <a href="contact.html">
+        <button type="button">Contact</button>
+      </a>
+    </nav>
+  </div>
   <div translate="no" class="vsc-initialized" data-new-gr-c-s-check-loaded="14.1125.0" data-gr-ext-installed="">
     <div class="col-md-6 offset-md-3 mt-5">
-         <a class="logomin" target="_blank" href="https://getform.io?ref=codepenHTML">
-            <img src="images/LOGO-DANI-removebg-preview.png">
-         </a>
           <br>
           <h1>Getform.io HTML Form Example with File Upload</h1>
-          <h5>We advise you to insert all the data you wish to send into a folder, and not send them separately , 
-            Thank you :)</h5>
-          <form  action="https://formsubmit.co/dandevid04@gmail.com" method="POST" enctype="multipart/form-data" target="_blank">
+          <h5>Vă sfătuim să introduceți toate datele pe care doriți să le trimiteți într-un folder și să nu le trimiteți separat, mulțumim :)</h5>
+          <form  action="https://formspree.io/f/xyyqngwe" method="POST" enctype="multipart/form-data" target="_blank">
             <div class="form-group">
-              <label for="exampleInputName">Full Name</label>
-              <input type="text" name="fullname" class="form-control" id="exampleInputName" placeholder="Enter your name and surname" required="required">
+              <label for="exampleInputName">Numele si prenumele dumneavoastra</label>
+              <input type="text" name="Fullname" class="form-control" id="exampleInputName" placeholder="introduceți numele si prenumele dumneavoastra" required="required">
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1" required="required">Email address</label>
-              <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <label for="exampleInputEmail1" required="required">Adresa email</label>
+              <input type="email" name="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introduceți adresa email">
             </div>
             <hr>
             <div class="form-group mt-3">
-              <label class="mr-2" id="labelWithFile">Upload here:</label>
-              <input type="file" name="file"  accept="*/*" onchange="displayFileName(this);">
+              <label class="mr-2" id="labelWithFile">Incarca acici:</label>
+              <input type="file" name="File" placeholder="Alegeti Fisierul" accept="*/*"  onchange="displayFileName(this);">
 
               <script>
                 function displayFileName(input) {
@@ -52,9 +70,12 @@
 
             </div>
             <hr>
-            <button type="submit"  value="Upload File" class="btn btn-primary">Submit</button>
+            <button type="submit"  value="Upload File" class="btn btn-primary">Trimiteți</button>
           </form>
       </div>
   </div>
 </body>
+<footer>
+  <p>© 2023 DAJBOCTECHDON - Satu Mare. All rights reserved. | Website designed by D&F Websites.</p>
+</footer>
 </html>
