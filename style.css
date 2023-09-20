@@ -99,22 +99,43 @@ button:hover{
   width: 60%;
   box-shadow: -2px -2px 8px 0px #ddd;
   margin-top: 90px;
-  /* bottom: -100%; */
-  /* animation: slideIn 5s ease 1s forwards; */
   overflow-y: scroll;
   text-align: justify;
+  opacity: 0;
+  transform: translateY(25%);
+  animation: fadeIn 1s ease-out forwards 0.5s;
+
 }
 
 /* slide-in animation using css */
 
-/* @keyframes slideIn {
+.content-ab {
+  opacity: 0;
+  transform: translateY(25%);
+  animation: fadeIn 1s ease-out forwards 0.5s;
+}
+
+ @keyframes fadeIn {
   to {
-    bottom: 0;
-  }
-} */
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+.content-ab img{
+  float: left;
+  height: 200px;
+  margin: 20px 20px 0 20px;
+  border-radius: 10%;
+  transition: transform 0.25s ease-in-out
+}
+
+.content-ab img:hover {
+  transform: scale(1.1);
+}
 
 .text-bg p {
-  padding: 20px 30px;
+  padding: 20px 20px 5px 10px;
 }
 
 /* Customize the scrollbar track */
