@@ -225,7 +225,7 @@ cursor: pointer;
     background-color: inherit;
     padding: 5px 10px;
     color: #ddd;
-    visibility: hidden;
+    display: none;
 }
 
 .portfolio-image img {
@@ -256,3 +256,6 @@ cursor: pointer;
     background-color: #006992;
 }
 
+.show-div {
+    display: block;
+}
