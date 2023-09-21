@@ -186,6 +186,8 @@ cursor: pointer;
 .portfolio-item {
     display: flex;
     vertical-align: middle;
+    border-radius: 20px;
+    overflow: hidden;
     width: 100%;
     height: 400px;
     margin: 20px;
@@ -210,15 +212,20 @@ cursor: pointer;
 
 .portfolio-text{
     width: 25%;
-    border-right: 1px solid gray
-
+    border-right: 1px solid gray;
+    position: relative;
+    color: #ddd;
+    padding: 5px 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .portfolio-hidden-text{
     width: 50%;
     background-color: inherit;
-    overflow: hidden; 
-    
+    padding: 5px 10px;
+    color: #ddd;
+    visibility: hidden;
 }
 
 .portfolio-image img {
@@ -235,12 +242,6 @@ cursor: pointer;
     right: 10px;
     font-size: 1.7em;
     color: #ddd;
-}
-
-.portfolio-text {
-    position: relative;
-    color: #ddd;
-    padding: 5px 10px;
 }
 
 .portfolio-text p {
