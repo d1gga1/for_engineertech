@@ -208,6 +208,7 @@ cursor: pointer;
     width: 25%;
     overflow: hidden;
     position:relative;
+    display: block;
 }
 
 .portfolio-text{
@@ -218,16 +219,29 @@ cursor: pointer;
     padding: 5px 10px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    display: block;
+}
+
+.corners {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .portfolio-hidden-text{
-    width: 50%;
+    width: 45%;
     background-color: inherit;
-    padding: 5px 10px;
     color: #ddd;
-    display: none;
-}
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    max-width: 45%;
+    padding: 5px 10px;
+    opacity: 0;
+    visibility: hidden;
 
+    /* Add transition properties for smooth opening and closing */
+    transition: max-width 0.3s ease, padding 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+}
 .portfolio-image img {
     width: 100%;
     height: 400px;
@@ -240,8 +254,18 @@ cursor: pointer;
     position: absolute;
     bottom: 10px;
     right: 10px;
-    font-size: 1.7em;
+    font-size: 2em;
     color: #ddd;
+    transition: transform 1s ease;
+    transform: rotate(0deg);
+}
+
+.expand-button.rotate {
+    transform: rotate(180deg);
+}
+
+.expand-button.rotate:hover {
+    transform: rotate(180deg) scale(1.3);
 }
 
 .portfolio-text p {
@@ -257,5 +281,8 @@ cursor: pointer;
 }
 
 .show-div {
-    display: block;
+    max-width: 45%;
+    padding: 5px 10px;
+    opacity: 1;
+    visibility: visible;
 }
