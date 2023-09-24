@@ -548,6 +548,14 @@ footer p {
     width: 100%;
   }
 
+  .infoList {
+    position: absolute;
+    width: calc( var(--card-width));
+    height: var(--card-height)/2;
+    pointer-events: none;
+    
+  }
+
   body {
     height: 100vh;
     overflow: hidden;
@@ -586,4 +594,11 @@ footer p {
     height: 100vh;
   }
   
+
+  .cardList {
+    position: absolute;
+    width: calc(var(--card-width));
+    height: auto;
+    margin-top: 50px;
+  }
 }
