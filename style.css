@@ -541,12 +541,16 @@ footer p {
   .translate {
     position: fixed;
     justify-content: space-evenly;
-    bottom: 20px;
     flex-direction: row;
     background-color: none;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+  }
+
+  body {
+    height: 100vh;
+    overflow: hidden;
   }
 
   .translate-btn a{
@@ -561,7 +565,25 @@ footer p {
   float: bottom;
  }
 
+ .app {
+  max-width: 100%;
+  overflow: hidden;
+ }
+
   .app__bg{
-    transform: scale(1.4);
+    height: 100vh;
   }
+
+  .app__bg__image {
+    height: 100vh;
+  }
+
+  .app__bg__image.current--image, .app__bg__image.next--image, .app__bg__image.previous--image {
+    height: 100vh;
+  }
+
+  .loading__wrapper {
+    height: 100vh;
+  }
+  
 }
