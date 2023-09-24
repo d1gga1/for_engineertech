@@ -2,6 +2,9 @@ console.clear();
 
 const { gsap, imagesLoaded } = window;
 
+const toggleDropdown = document.getElementById("hamburger-content");
+const buttonDropdown = document.getElementById("hamburger-btn");
+
 const buttons = {
 	prev: document.querySelector(".btn--left"),
 	next: document.querySelector(".btn--right"),
@@ -255,25 +258,7 @@ const waitForImages = () => {
 waitForImages();
 
 
-// // about
 
-// const contentDiv = document.querySelector('.content-ab');
-
-// contentDiv.addEventListener('wheel', (e) => {
-//     const deltaY = e.deltaY;
-//     contentDiv.scrollTop += deltaY;
-//     e.preventDefault();
-// });
-
-
-// // about div transition
-// document.addEventListener("DOMContentLoaded", function () {
-//     // Select the sliding div by its class name
-//     var slideInDiv = document.querySelector(".text-bg");
-
-//     // Set a timeout to delay the animation (optional)
-//     setTimeout(function () {
-//         // Slide the div in by changing its 'bottom' property
-//         slideInDiv.style.bottom = "0";
-//     }, 1); // Adjust the delay time as needed
-// });
+buttonDropdown.addEventListener("click", function(){
+	toggleDropdown.classList.toggle("show-hb");
+})
