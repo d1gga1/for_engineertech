@@ -5,6 +5,8 @@ const { gsap, imagesLoaded } = window;
 const toggleDropdown = document.getElementById("hamburger-content");
 const buttonDropdown = document.getElementById("hamburger-btn");
 
+
+
 const buttons = {
 	prev: document.querySelector(".btn--left"),
 	next: document.querySelector(".btn--right"),

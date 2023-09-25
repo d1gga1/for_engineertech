@@ -48,10 +48,15 @@ nav{
 }
 
 .hamburger-content {
-  display: none;
+  display: block;
+  position: fixed;
   background-color: none;
   width: 160px;
   text-align: left;
+  right: -50%;
+  opacity: 0;
+  visibility: 0;
+  transition: right 1s ease, opacity 1s ease, visibility 1s ease;
 }
 
 .hamburger-content ul {
@@ -75,7 +80,9 @@ nav{
 }
 
 .show-hb {
-  display: block;
+  right: 0;
+  opacity: 1;
+  visibility: 1;
 }
 
 /* haburger over */
@@ -690,4 +697,28 @@ footer p {
     z-index: 6;
   }
   
+  /* about */
+
+  .content-ab img{
+    width: 100px;
+    height: auto;
+    margin:0;
+    padding:0;
+    margin-right: 10px;
+  }
+
+  .text-bg p {
+    padding: 0;
+  }
+
+  .text-bg {
+    margin-bottom: 60px;
+    width: 85%;
+    height: 60%;
+  }
+
+  .content-ab {
+    padding: 10px;
+  }
+
 }
