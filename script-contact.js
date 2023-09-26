@@ -2,6 +2,9 @@ const buttons = document.querySelectorAll(".card-buttons button");
 const sections = document.querySelectorAll(".card-section");
 const card = document.querySelector(".card");
 
+const toggleDropdown = document.getElementById("hamburger-content");
+const buttonDropdown = document.getElementById("hamburger-btn");
+
 const handleButtonClick = (e) => {
   const targetSection = e.target.getAttribute("data-section");
   const section = document.querySelector(targetSection);
@@ -18,3 +21,7 @@ const handleButtonClick = (e) => {
 buttons.forEach((btn) => {
   btn.addEventListener("click", handleButtonClick);
 });
+
+buttonDropdown.addEventListener("click", function(){
+	toggleDropdown.classList.toggle("show-hb");
+})
