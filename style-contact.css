@@ -74,6 +74,12 @@ body {
   z-index: 11;
 }
 
+.show-hb {
+  right: 0;
+  opacity: 1;
+  visibility: 1;
+}
+
 .app__bg {
   position: absolute;
   width: 100%;
@@ -653,11 +659,15 @@ button:focus {
   border: none;
 }
 
+.hamburger-btn:hover {
+  cursor: pointer;
+  transform: none;
+}
 
 footer{
   background-color: none;
-text-align: center;
-padding: 10px 0;
+  text-align: center;
+  padding: 10px 0;
   border-bottom: 20px;
   position: absolute;
   bottom: 0;
@@ -776,7 +786,7 @@ footer p {
   .card {
     max-width: 100%;
     max-height: 150%;
-    
+    transform: scale(0.9);
   }
   
   .card[data-state="#about"] {

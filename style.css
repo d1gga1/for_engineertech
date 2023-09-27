@@ -156,6 +156,17 @@ button:hover{
   cursor: pointer;
 }
 
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+  border: none;
+}
+
 .hamburger-btn:hover {
   cursor: pointer;
   transform: none;
@@ -258,15 +269,6 @@ body {
   overflow: hidden;
 }
 
-button {
-  border: none;
-  background: none;
-  cursor: pointer;
-}
-button:focus {
-  outline: none;
-  border: none;
-}
 
 .app {
   position: relative;

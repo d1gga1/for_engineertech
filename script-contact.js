@@ -24,4 +24,4 @@ buttons.forEach((btn) => {
 
 buttonDropdown.addEventListener("click", function(){
 	toggleDropdown.classList.toggle("show-hb");
-})
+});
