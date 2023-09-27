@@ -52,12 +52,10 @@ body {
 
 .hamburger-content ul {
   list-style-type: none;
-  z-index: 11;
 }
 
 .hamburger-content ul li {
   font-size: 16px;
-  z-index: 11;
 }
 
 .hamburger-content a {
@@ -71,7 +69,6 @@ body {
 .hamburger-content ul li, .hamburger-content a {
   margin: 5px 0;
   padding: 3px 0;
-  z-index: 11;
 }
 
 .show-hb {
