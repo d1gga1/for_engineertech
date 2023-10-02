@@ -52,10 +52,12 @@ body {
 
 .hamburger-content ul {
   list-style-type: none;
+  z-index: 11;
 }
 
 .hamburger-content ul li {
   font-size: 16px;
+  z-index: 11;
 }
 
 .hamburger-content a {
@@ -69,6 +71,7 @@ body {
 .hamburger-content ul li, .hamburger-content a {
   margin: 5px 0;
   padding: 3px 0;
+  z-index: 11;
 }
 
 .show-hb {
@@ -659,6 +662,7 @@ button:focus {
 .hamburger-btn:hover {
   cursor: pointer;
   transform: none;
+  z-index: 11;
 }
 
 footer{
@@ -784,6 +788,7 @@ footer p {
     max-width: 100%;
     max-height: 150%;
     transform: scale(0.9);
+    margin-top: 50%;
   }
   
   .card[data-state="#about"] {
@@ -1088,6 +1093,5 @@ footer p {
       line-height: 1.6;
       margin-top: 20px;
     }
-
 }
 
