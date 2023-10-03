@@ -724,3 +724,106 @@ footer p {
   }
 
 }
+
+
+/*tablet*/
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .translate {
+    position: absolute;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    bottom: 50px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  nav ul, nav a {
+    display: none;
+  }
+
+  
+
+  body {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .translate-btn a{
+    font-size: 20px;
+  }
+
+  footer p{
+    bottom: 0;
+  }
+
+ footer {
+  float: bottom;
+  font-size: 15px;
+ }
+
+ .support {
+  display: none;
+ }
+
+ .app {
+  max-width: 100%;
+  overflow: hidden;
+ }
+
+  .app__bg{
+    height: 100vh;
+  }
+
+  .app__bg__image {
+    height: 100vh;
+  }
+
+  .app__bg__image.current--image, .app__bg__image.next--image, .app__bg__image.previous--image {
+    height: 100vh;
+  }
+
+  .loading__wrapper {
+    height: 100vh;
+  }
+  
+
+  .cardList {
+    transform: scale(0.8);
+  }
+
+ 
+  
+  /* about */
+
+  .content-ab img{
+    width: 100px;
+    height: auto;
+    margin:0;
+    padding:0;
+    margin-right: 10px;
+  }
+
+  .text-bg p {
+    padding: 0;
+  }
+
+  .text-bg {
+    margin-bottom: 60px;
+    width: 85%;
+    height: 60%;
+  }
+
+  .content-ab {
+    padding: 10px;
+  }
+  
+}

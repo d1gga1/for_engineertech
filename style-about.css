@@ -705,3 +705,29 @@ footer p {
   }
 
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .hamburger {
+    display: flex;
+  }
+
+  nav ul, nav a {
+    display: none;
+  }
+
+  .support {
+    display: none;
+   }
+
+   .text-bg {
+    margin-bottom: 60px;
+    width: 85%;
+    height: 60%;
+    margin-left: 20%;
+    margin-right: 8%;
+  }
+
+  
+
+}

@@ -693,7 +693,7 @@ footer p {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    bottom: 30px;
+    top: 11%;
   }
 
   .hamburger {
@@ -799,7 +799,7 @@ footer p {
   }
   
   .card[data-state="#contact"] {
-    height: 85%;
+    height: 70%;
   }
   
   .card.is-active {
@@ -1093,5 +1093,71 @@ footer p {
       line-height: 1.6;
       margin-top: 20px;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .hamburger {
+    display: flex;
+  }
+
+  nav ul, nav a {
+    display: none;
+  }
+
+  .support {
+    display: none;
+   }
+
+   .text-bg {
+    margin-bottom: 60px;
+    width: 85%;
+    height: 60%;
+    margin-left: 20%;
+    margin-right: 8%;
+  }
+
+  .translate {
+    position: absolute;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    bottom: 11%;
+  }
+
+  .card {
+    max-width: 80%;
+    height: 80%;
+    margin: auto;
+    overflow-y: auto;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    transition: 0.3s;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+    margin-top: 100px;
+  }
+  
+
+  .card.is-active {
+    .card-header {
+      height: 80px;
+    }
+  
+    .card-cover {
+      height: 10%;
+      top: -50px;
+    }
+  
+
+
+}
 }
 

@@ -65,6 +65,11 @@ body {
     margin: 5px 0;
     padding: 3px 0;
   }
+
+  .hamburger-btn:hover {
+    cursor: pointer;
+    transform: none;
+  }
   
   .show-hb {
     right: 0;
@@ -334,7 +339,7 @@ footer {
       margin-left: auto;
       margin-right: auto;
       width: 100%;
-      bottom: 30px;
+      top: 29%;
     }
   
     .hamburger {
@@ -352,12 +357,12 @@ footer {
     nav ul, nav a {
       display: none;
     }
-  
-    nav h2 {
-      display: none;
+
+    /*nav h2 {
+      display: none;     /*quando mettiamo il logo piccolo non comprira piu il menu hamburger , ora è lungo e quindi lo copre
       
-    }
-  
+    }*/  
+
     body {
       height: 100vh;
       overflow: hidden;
@@ -368,11 +373,11 @@ footer {
     }
   
     footer p{
-      bottom: 0;
+     top: 0;
     }
   
    footer {
-    float: bottom;
+    float: top;
     font-size: 8px;
    }
   
@@ -397,24 +402,7 @@ footer {
       height: 100vh;
     }
   
-    .loading__wrapper {
-      height: 100vh;
-    }
     
-  
-    .cardList {
-      transform: scale(0.8);
-    }
-  
-    .cardList__btn.btn--left {
-      left: 200px;
-      z-index: 6;
-      
-    }
-    .cardList__btn.btn--right {
-      right: 200px;
-      z-index: 6;
-    }
     
     /* about */
   
@@ -444,15 +432,65 @@ footer {
       display: none;
     }
 
-    .form-group{
-      width: 85%;
-    }
-
     h5{
-      width: 85%;
+      margin-top: 0;
     }
+    
+
+    
 
     
   
   }
   
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .hamburger {
+      display: flex;
+    }
+  
+    nav ul, nav a {
+      display: none;
+    }
+  
+    .support {
+      display: none;
+     }
+  
+     .text-bg {
+      margin-bottom: 60px;
+      width: 85%;
+      height: 60%;
+      margin-left: 20%;
+      margin-right: 8%;
+    }
+
+    .translate {
+      position: absolute;
+      justify-content: space-evenly;
+      flex-direction: row;
+      background-color: none;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      bottom: 10%;
+    }
+
+    .form-group{
+      margin-top: 10%;
+    }
+  
+    .hamburger-content .show-hb ul{
+      z-index: 11;
+    }
+
+    .hamburger{
+      z-index: 12;
+    }
+
+    h1{
+      margin-top: 12%;
+    }
+  
+  }
