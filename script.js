@@ -264,3 +264,5 @@ waitForImages();
 buttonDropdown.addEventListener("click", function(){
 	toggleDropdown.classList.toggle("show-hb");
 })
+
+
