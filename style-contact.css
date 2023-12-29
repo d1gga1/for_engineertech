@@ -741,10 +741,6 @@ footer p {
   font-size: 8px;
  }
 
- .support {
-  display: none;
- }
-
  .app {
   max-width: 100%;
   overflow: hidden;
@@ -1109,10 +1105,6 @@ footer p {
   nav ul, nav a {
     display: none;
   }
-
-  .support {
-    display: none;
-   }
 
    .text-bg {
     margin-bottom: 60px;

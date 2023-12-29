@@ -85,7 +85,7 @@ img{
     display:flex;
     align-items:center;
     justify-content: space-between;
-    padding-top:20px;
+    padding-top:0px;
     padding-left:10%;
     padding-right:10%;
   }
@@ -385,9 +385,6 @@ footer {
     font-size: 8px;
    }
   
-   .support {
-    display: none;
-   }
   
    .app {
     max-width: 100%;
@@ -458,9 +455,7 @@ footer {
       display: none;
     }
   
-    .support {
-      display: none;
-     }
+
   
      .text-bg {
       margin-bottom: 60px;

@@ -867,24 +867,6 @@ button:focus {
   --card-height: 400px;
 }
 
-.support {
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-  padding: 10px;
-  display: flex;
-}
-.support a {
-  margin: 0 10px;
-  color: #fff;
-  font-size: 1.8rem;
-  backface-visibility: hidden;
-  transition: all 150ms ease;
-}
-.support a:hover {
-  transform: scale(1.1);
-}
-
 .loading__wrapper {
 	position: fixed;
 	left: 0;
@@ -1022,10 +1004,6 @@ footer p {
   font-size: 8px;
  }
 
- .support {
-  display: none;
- }
-
  .app {
   max-width: 100%;
   overflow: hidden;
@@ -1131,10 +1109,6 @@ footer p {
  footer {
   float: bottom;
   font-size: 15px;
- }
-
- .support {
-  display: none;
  }
 
  .app {
