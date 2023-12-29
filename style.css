@@ -362,6 +362,8 @@ font-size: 14px;
 color: #878787;
 }
 
+
+
 .hdr{
   background-color: none;
   padding: 20px;
@@ -374,6 +376,13 @@ color: #878787;
   z-index: 2;
 }
 
+
+.logo {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
 img{
   margin-top: 0;
   width: 200px;
@@ -384,7 +393,7 @@ nav{
   display:flex;
   align-items:center;
   justify-content: space-between;
-  padding-top:20px;
+  padding-top: 0px;
   padding-left:10%;
   padding-right:10%;
   
@@ -451,17 +460,6 @@ nav{
 }
 
 /* haburger over */
-
-.logo{
-  color:white;
-  font-size:28px;
-  text-shadow: 0 4px 6px rgba(255, 255, 255, 0.8);
-}
-
-.logo span{
-  color:red;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
-}
 
 span:hover{
   transform:scale(1.3);
