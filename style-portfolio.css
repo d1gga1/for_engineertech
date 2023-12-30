@@ -73,7 +73,7 @@ nav{
     right: -50%;
     opacity: 0;
     visibility: 0;
-    transition: right 1s ease, opacity 1s ease, visibility 1s ease;
+    transition: right .5s ease, opacity .5s ease, visibility .5s ease;
   }
   
   .hamburger-content ul {
@@ -399,20 +399,16 @@ color: #fff;
 }
 
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     body {
       overflow: hidden;
     }
 
     .hdr {
-      max-width: 100vw;
+      width: 100vw;
       
     }
-
-   .hamburger {
-    right: 30px;
-   }
 
     .translate {
       position: absolute;
@@ -424,12 +420,12 @@ color: #fff;
       width: 100vw;
       top: 120px;
       padding: 0;
-      margin: 0;
+      margin: 10px 0;
     }
   
     .translate-btn {
       margin: 0;
-      padding: 0;
+      padding: 5px;
       font-size: 14px;      
     }
 
