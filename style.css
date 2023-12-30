@@ -430,7 +430,7 @@ nav{
   right: -50%;
   opacity: 0;
   visibility: 0;
-  transition: right 1s ease, opacity 1s ease, visibility 1s ease;
+  transition: right .5s ease, opacity .5s ease, visibility .5s ease;
 }
 
 .hamburger-content ul {

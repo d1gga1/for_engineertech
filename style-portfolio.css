@@ -47,7 +47,7 @@ nav{
     position: absolute;
     display: none;
     width: 150px;
-    height: 200px;
+    height: auto;
     float: right;
     top: 15px;
     right:15px;
@@ -418,7 +418,7 @@ color: #fff;
       margin-left: auto;
       margin-right: auto;
       width: 100vw;
-      top: 120px;
+      top: 150px;
       padding: 0;
       margin: 10px 0;
     }
