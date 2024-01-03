@@ -2,29 +2,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
 
-/*header*/
-.first {
-  margin-top: 50px;
-  text-align: left;
-  width: 20%;
-   /* Allinea il contenuto a sinistra */
-}
-
-.second {
-  margin-top: 0;
-  text-align: center;
-  width: 20%;
-   /* Allinea il contenuto a sinistra */
-}
-
-.third {
-  text-align: right;
-  width: 20%;
-   /* Allinea il contenuto a sinistra */
-}
 
 
-.widget1{
+
+.single-cta{
   margin-top: 20px;
 }
 
