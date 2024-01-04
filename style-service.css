@@ -1,18 +1,24 @@
+ 
+ h1 {
+  margin: 20px;
+  padding: 20px;
+ }
+
+ h5{
+  margin: 20px;
+  padding: 20px;
+ }
+
+button.btn{
+  font-size: 30px;
+}
+
+ 
+ 
  .main-page{
   display: flex;
   background: rgba(0, 0, 0, 0);
   align-items: center;
-}
-
-
-
-.translate-btn {
-  cursor: pointer;
-  z-index: 10; /* Assicurati che i pulsanti siano sopra gli altri elementi */
-}
-
-.main-page.h1{
-  size: 10000px;
 }
 
 .center-main{
@@ -28,10 +34,6 @@
 }
 
 
-body{
-  margin: 0;
-}
-
 img{
   margin-top: 0;
   width: 200px;
@@ -46,7 +48,6 @@ img{
   left: 0;
   width: 100%;
   height: 100vh;
-  z-index: 2;
 }
 
 
@@ -291,7 +292,10 @@ button, input, optgroup, select, textarea {
 }
 
 
-.translate {
+
+
+
+.main-page .translate {
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -299,19 +303,21 @@ button, input, optgroup, select, textarea {
   border-top: 20px;
   position: absolute;
   left: 0;
-  background-color: transparent; 
+  z-index: 101;
 }
   
   .translate-btn {
     margin: 10px 20px;
     color: white;
     text-decoration: none;
+    
   }
   
   .translate-btn a {
     color: white;
     text-decoration: none;
     display: block; 
+    
   }
 
   button{
