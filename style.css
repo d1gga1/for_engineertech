@@ -2,8 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
 
-
-
 .single-cta{
   margin-top: 20px;
 }
@@ -56,15 +54,6 @@ a,
     font-size: 16px;
     color: rgba(255, 255, 255, .6);
     margin-top: 26px;
-}
-
-.widget1 {
-  padding-bottom:5px;
-  border-bottom: 1px solid #373636;
-}
-
-.socialLinks ul li a{
-  table-layout: ;
 }
 
 
@@ -120,10 +109,6 @@ a,
     background: #0177b5;
 }
 
-
-footer .logo {
-    max-width: 200px;
-}
 
 .footer h5 {
     font-weight: 500;
@@ -374,20 +359,33 @@ color: #878787;
 
 .flex-box {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   overflow: hidden;
+  margin-left: -10%;
 }
 
-.socialLinks, .col-md-6, .container-cta{
+.col-md-6, .container-cta{
   padding-left: 20px;
   border-left: 1px solid #373636;
 }
+
+
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.links ul li {
+  display: inline-block;
+}
+
 
 .hdr{
   background-color: none;
   padding: 20px;
   text-align: center;
-  border-top: 20px;
   position: absolute;
   top: 0;
   left: 0;
@@ -647,7 +645,7 @@ button:focus {
   display: flex;
   justify-content: center; 
   align-items: center;
-  background: rgba(0, 0, 0, 0.787);
+  background: rgba(0, 0, 0, 0);
   overflow: hidden;
 }
 
@@ -925,23 +923,7 @@ button:focus {
 .loaded-wrapper {
   display: none;
 }
-/*footer*/
 
-footer {
-  background-color: none;
-  text-align: center;
-  padding: 10px 0;
-    border-bottom: 20px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2;
-}
-
-footer p {
-  color: #fff;
-}
 
 /* translate buttons */
 
@@ -1028,15 +1010,6 @@ footer p {
   .translate-btn a{
     font-size: 14px;
   }
-
-  footer p{
-    bottom: 0;
-  }
-
- footer {
-  float: bottom;
-  font-size: 8px;
- }
 
  .app {
   max-width: 100%;
@@ -1135,15 +1108,6 @@ footer p {
   .translate-btn a{
     font-size: 14px;
   }
-
-  footer p{
-    bottom: 0;
-  }
-
- footer {
-  float: bottom;
-  font-size: 15px;
- }
 
  .app {
   max-width: 100%;
