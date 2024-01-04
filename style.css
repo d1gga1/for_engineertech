@@ -59,24 +59,24 @@ a,
     margin-top: 26px;
 }
 
-.footer .socialLinks {
-    margin-top: 28px;
+.widget1 {
+  padding-bottom:5px;
+  border-bottom: 1px solid #373636;
 }
 
-.socialLinks ul li {
-    display: inline-block;
+.socialLinks ul li a{
+  table-layout: ;
 }
 
 
 .socialLinks ul li a i {
     display: block;
-    margin: 0 2px;
+    margin: 4px;
     width: 40px;
     height: 40px;
     background: #fafafa;
     border-radius: 50%;
     text-align: center;
-    margin-right: 5px;
     line-height: 40px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -120,6 +120,8 @@ a,
 .socialLinks ul li a:hover .fa-linkedin-in {
     background: #0177b5;
 }
+
+
 footer .logo {
     max-width: 200px;
 }
@@ -214,9 +216,13 @@ ul {
 background: #151414;
 position: relative;
 }
-.footer-cta {
-border-bottom: 1px solid #373636;
+
+.container-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
+
 .single-cta i {
 color: white;
 font-size: 30px;
@@ -367,7 +373,16 @@ font-size: 14px;
 color: #878787;
 }
 
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
 
+.socialLinks, .col-md-6, .container-cta{
+  padding-left: 20px;
+  border-left: 1px solid #373636;
+}
 
 .hdr{
   background-color: none;
