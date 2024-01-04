@@ -4,7 +4,6 @@
 
 
 
-
 .single-cta{
   margin-top: 20px;
 }
@@ -967,6 +966,21 @@ footer p {
 .translate-btn a {
   color: white;
   text-decoration: none;
+
+}
+
+
+.active {
+  font-size: 120%;
+  color: #aaa;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.active:hover {
+  transform:scale(0.9);
+  cursor: pointer;
 
 }
 
