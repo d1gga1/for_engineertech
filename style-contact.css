@@ -130,7 +130,8 @@ img{
 .card {
   max-width: 30%;
   height: 500px;
-  margin: auto;
+  margin-top: 7%;
+  margin-left: 35%;
   overflow-y: auto;
   position: relative;
   z-index: 1;
@@ -247,6 +248,7 @@ img{
 .card-jobtitle {
   position: absolute;
   bottom: 0;
+  top: 100%;
   font-size: 11px;
   white-space: nowrap;
   font-weight: 500;
@@ -326,7 +328,7 @@ img{
   background-color: white;
   margin-top: auto;
   bottom: 0;
-  margin-left: 17%;
+  margin-left: 30%;
 }
 
 .card-section {
@@ -345,6 +347,10 @@ img{
   100% {
     opacity: 1;
   }
+}
+
+.card-section.is-active{
+  margin-top:5%;
 }
 
 .card-timeline {
