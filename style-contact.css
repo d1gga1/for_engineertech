@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500|Jost:400,500,600&display=swap");
 
+
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
 }
 body {
   color: #2b2c48;
@@ -18,6 +22,11 @@ body {
 img{
   margin-top: 0;
   width: 200px;
+}
+
+.contenitore {
+  height: 100vh;
+  width: 100%;
 }
 
 .hamburger {
@@ -120,7 +129,7 @@ img{
 
 .card {
   max-width: 30%;
-  max-height: 30%;
+  height: 500px;
   margin: auto;
   overflow-y: auto;
   position: relative;
@@ -132,7 +141,7 @@ img{
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
-  margin-top: 100px;
+  /* margin-top: 50px; */
 }
 
 .card[data-state="#about"] {
@@ -176,7 +185,8 @@ img{
   }
 
   .card-jobtitle {
-    bottom: 16px;
+    position: absolute;
+    bottom: 10px;
     letter-spacing: 1px;
     font-size: 10px;
   }
@@ -501,30 +511,30 @@ img{
   );
 }
 
-  .translate {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-      text-align: center;
-      border-top: 20px;
-      position: absolute;
-      left: 0;
-      margin-top: 20%;
-      z-index: 2;
-  
-  }
-  
-  .translate-btn {
-    margin: 10px 20px;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .translate-btn a {
-    color: white;
-    text-decoration: none;
-  
-  }
+.translate { 
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  border-top: 20px;
+  position: absolute;
+  left: 0;
+  margin-top: 20%;
+  z-index: 2;
+
+}
+
+.translate-btn {
+  margin: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.translate-btn a {
+  color: white;
+  text-decoration: none;
+
+}
 
 
 .hdr{
@@ -670,22 +680,6 @@ button:focus {
   z-index: 11;
 }
 
-footer{
-  background-color: none;
-  text-align: center;
-  padding: 10px 0;
-  border-bottom: 20px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: 2;
-}
-
-footer p {
-  color: #fff;
-}
-
 
 @media screen and (max-width: 768px) {
 
@@ -732,14 +726,6 @@ footer p {
     font-size: 14px;
   }
 
-  footer p{
-    bottom: 0;
-  }
-
- footer {
-  float: bottom;
-  font-size: 8px;
- }
 
  .app {
   max-width: 100%;
@@ -1157,6 +1143,15 @@ footer p {
 
 
 
+.main-page{
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
+
 /* footer */
 
 .single-cta{
@@ -1201,12 +1196,7 @@ section {
   padding: 60px 0;
   min-height: 100vh;
 }
-.footer {
-  padding: 100px 0px 0px;
-  background-color: black;
-  width: 100vw;
-  overflow: hidden;
-}
+
 
 
 .footer .widget1 p {
@@ -1270,7 +1260,6 @@ section {
 
 
 .footer h5 {
-  font-weight: 500;
   margin-bottom: 28px;
   text-transform: capitalize;
   font-weight: 600;
@@ -1536,4 +1525,12 @@ ul {
 
 .links ul li {
   display: inline-block;
+}
+
+.footer {
+  padding: 100px 0px 0px;
+  background-color: black;
+  width: 100vw;
+  overflow: hidden;
+  max-width: 100%;
 }
