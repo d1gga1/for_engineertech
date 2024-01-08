@@ -261,8 +261,26 @@ waitForImages();
 
 
 
-buttonDropdown.addEventListener("click", function(){
-	toggleDropdown.classList.toggle("show-hb");
-})
+function closeDropdown() {
+    toggleDropdown.classList.remove("show-hb");
+}
 
+// Event listener for the hamburger button click
+buttonDropdown.addEventListener("click", function() {
+    toggleDropdown.classList.toggle("show-hb");
+});
 
+// Event listener for scrolling anywhere on the page
+window.addEventListener("scroll", function() {
+    closeDropdown();
+});
+
+// Event listener for clicking outside of the dropdown
+document.addEventListener("click", function(event) {
+    const target = event.target;
+
+    // Check if the click is outside of the dropdown and the hamburger button
+    if (!toggleDropdown.contains(target) && target !== buttonDropdown) {
+        closeDropdown();
+    }
+});

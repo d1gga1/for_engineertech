@@ -187,9 +187,8 @@ button:focus {
   background-color: #ddd;
   z-index: 1;
   height: 70%;
-  width: 60%;
   box-shadow: -2px -2px 8px 0px #ddd;
-  margin-top: 90px;
+  margin-top: 100px;
   overflow-y: scroll;
   text-align: justify;
   opacity: 0;
@@ -676,6 +675,7 @@ a,
 
 .footer .widget3{
   margin-top: 20px;
+
 }
 
 .footer .widget3 ul li a,

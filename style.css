@@ -1162,10 +1162,6 @@ button:focus {
 
   
 
-  body {
-    height: 100vh;
-    overflow: hidden;
-  }
 
   .translate-btn a{
     font-size: 14px;
@@ -1226,6 +1222,14 @@ button:focus {
 
   /* tablet footer  */
 
+  .flex-box {
+    margin-left: 5%;
+  }
 
+}
 
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .flex-box {
+    margin-left: -5%;
+  }
 }
