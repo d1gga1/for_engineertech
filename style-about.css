@@ -418,117 +418,6 @@ button:focus {
 }
 
 
-@media screen and (max-width: 768px) {
-
-
-  .translate {
-    position: absolute;
-    justify-content: space-evenly;
-    flex-direction: row;
-    background-color: none;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    bottom: 30px;
-  }
-
-  .hamburger {
-    display: flex;
-  }
-
-  .infoList {
-    transform: scale(0.8);
-  }
-
-  .info__wrapper {
-    transform: scale(0.6);
-  }
-
-  nav ul, nav a {
-    display: none;
-  }
-
-  nav h2 {
-    display: none;
-    
-  }
-
-  body {
-    overflow: hidden;
-  }
-
-  .translate-btn a{
-    font-size: 14px;
-  }
-
- 
-
- .app {
-  max-width: 100%;
-  overflow: hidden;
- }
-
-  .app__bg{
-    height: 100vh;
-  }
-
-  .app__bg__image {
-    height: 100vh;
-  }
-
-  .app__bg__image.current--image, .app__bg__image.next--image, .app__bg__image.previous--image {
-    height: 100vh;
-  }
-  
-  /* about */
-
-  .content-ab img{
-    width: 100px;
-    height: auto;
-    margin:0;
-    padding:0;
-    margin-right: 10px;
-  }
-
-  .text-bg p {
-    padding: 0;
-  }
-
-  .text-bg {
-    margin-bottom: 60px;
-    width: 85%;
-    height: 60%;
-  }
-
-  .content-ab {
-    padding: 10px;
-  }
-
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-
-  .hamburger {
-    display: flex;
-  }
-
-  nav ul, nav a {
-    display: none;
-  }
-
-  .text-bg {
-    margin-bottom: 60px;
-    width: 85%;
-    height: 60%;
-    margin-left: 20%;
-    margin-right: 8%;
-  }
-
-  
-
-}
-
-
 /*footer*/
 .single-cta{
   margin-top: 20px;
@@ -914,4 +803,195 @@ color: #878787;
 
 
 
+@media screen and (max-width: 768px) {
 
+  .show-hb {
+    right: -50px;
+  }
+
+  .translate {
+    position: absolute;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    bottom: 30px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .hamburger-content ul li a{
+    font-size: 12px;
+  }
+
+  .infoList {
+    transform: scale(0.8);
+  }
+
+  .info__wrapper {
+    transform: scale(0.6);
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .logo {
+    margin-top: 0;
+    margin-left: 0;
+    display: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transform: translate(0.8);
+  }
+
+  .logo img{
+    width: 170px;
+  }
+
+  nav h2 {
+    display: none;
+    
+  }
+
+  .translate-btn a{
+    font-size: 14px;
+  }
+
+ 
+
+ .app {
+  max-width: 100%;
+  overflow: hidden;
+ }
+
+  .app__bg{
+    height: 100vh;
+  }
+
+  .app__bg__image {
+    height: 100vh;
+  }
+
+  .app__bg__image.current--image, .app__bg__image.next--image, .app__bg__image.previous--image {
+    height: 100vh;
+  }
+  
+  .content-ab img{
+    width: 100px;
+    height: auto;
+    margin:0;
+    padding:0;
+    margin-right: 10px;
+  }
+
+  .text-bg p {
+    padding: 0;
+  }
+
+  .text-bg {
+    margin-bottom: 30px;
+    width: 85%;
+    height: 60%;
+  }
+
+  .content-ab {
+    padding: 10px;
+  }
+
+  /* footer */
+
+  .flex-box {
+    flex-direction: column;
+    margin-left: 0;
+    align-items: center;
+  }
+  
+  .footer .widget2 iframe{
+    width: 95%;
+    height: 90%;
+  }
+
+  .col-md-6, .container-cta{
+    border: none;
+    border-top: 1px solid #373636;
+  }
+
+  .socialLinks {
+    padding-bottom: 5px;
+  }
+
+  .container.row{
+    padding-bottom: 0;
+    
+  }
+
+  .widget3 li{
+    display: inline-block;
+    padding: 0 2px;
+  }
+
+  .widget3 h5 {
+    margin-left: 25%;
+  }
+
+  .copyRightArea {
+    margin: 20px;
+  }
+
+  .footer {
+    overflow: hidden; 
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .logo {
+    margin-top: 0;
+    margin-left: 0;
+    display: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transform: translate(0.8);
+  }
+
+  .logo img{
+    width: 170px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .text-bg {
+    margin-bottom: 60px;
+    width: 85%;
+    height: 60%;
+    margin-left: 20%;
+    margin-right: 8%;
+  }
+
+  
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .flex-box {
+    margin-left: -5%;
+  }
+
+  .cardList {
+    transform: scale(0.9);
+  }
+}

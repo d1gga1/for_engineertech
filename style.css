@@ -971,9 +971,9 @@ button:focus {
 
 @media screen and (max-width: 768px) {
 
-  .footer .widget2 iframe{
-    width: 95%;
-    height: 90%;
+  
+  .show-hb {
+    right: -50px;
   }
   
   .translate {
@@ -984,11 +984,15 @@ button:focus {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    bottom: 30px;
+    bottom: 0px;
   }
 
   .hamburger {
     display: flex;
+  }
+
+  .hamburger-content ul li a{
+    font-size: 12px;
   }
 
   .infoList {
@@ -1103,6 +1107,11 @@ button:focus {
     align-items: center;
   }
   
+  .footer .widget2 iframe{
+    width: 95%;
+    height: 90%;
+  }
+
   .col-md-6, .container-cta{
     border: none;
     border-top: 1px solid #373636;
@@ -1154,14 +1163,18 @@ button:focus {
 
   .hamburger {
     display: flex;
-  }
-
-  nav ul, nav a {
-    display: none;
-  }
-
   
+  }
 
+  nav ul {
+    display: none;
+    
+  }
+
+  .logo img {
+    width: 350px;
+    height: auto;
+  }
 
   .translate-btn a{
     font-size: 14px;
@@ -1195,25 +1208,6 @@ button:focus {
 
  
   
-  /* about */
-
-  .content-ab img{
-    width: 100px;
-    height: auto;
-    margin:0;
-    padding:0;
-    margin-right: 10px;
-  }
-
-  .text-bg p {
-    padding: 0;
-  }
-
-  .text-bg {
-    margin-bottom: 60px;
-    width: 85%;
-    height: 60%;
-  }
 
   .content-ab {
     padding: 10px;
@@ -1232,4 +1226,34 @@ button:focus {
   .flex-box {
     margin-left: -5%;
   }
+
+  .cardList {
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 1023px) and (orientation: landscape) {
+
+  .logo img{
+    width: 170px;
+  }
+
+  img {
+    width: 170px;
+  }
+
+  .translate {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    border-top: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: auto;
+    transform: translate(0.8);
+  }
+  
 }
