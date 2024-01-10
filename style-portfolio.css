@@ -13,6 +13,28 @@
     z-index: 2;
 }
 
+/* Customize the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+/* Customize the scrollbar track on hover */
+::-webkit-scrollbar-track:hover {
+  background-color: #ccc; /* Color of the scrollbar track on hover */
+}
+
+/* Customize the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+
+
 button{
   border:none;
   border-radius:30px;

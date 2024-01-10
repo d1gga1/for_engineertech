@@ -94,7 +94,7 @@ nav{
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }
 
-.hamburger-content ul li, .hamburger-content a {
+.hamburger-content ul li {
   margin: 5px 0;
   padding: 3px 0;
 }
