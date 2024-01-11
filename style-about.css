@@ -657,12 +657,7 @@ height: 330px;
 background-size: cover;
 background-position: 100% 100%;
 }
-.footer-logo {
-margin-bottom: 30px;
-}
-.footer-logo img {
-  max-width: 200px;
-}
+
 .footer-text p {
 margin-bottom: 14px;
 font-size: 14px;
@@ -975,20 +970,86 @@ color: #878787;
   }
 
   .text-bg {
-    margin-bottom: 60px;
     width: 85%;
     height: 60%;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-right: 8%;
   }
 
-  
 
+  .flex-box {
+    margin-left: 5%;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1400px) {
+
+  .footer {
+    width: 100vw;
+  }
+
   .flex-box {
-    margin-left: -5%;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+
+  .cardList {
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 1023px) and (orientation: landscape) {
+
+  .content-ab img{
+    width: 150px;
+    height: auto;
+  }
+
+  .logo img{
+    width: 170px;
+  }
+
+  img {
+    width: 170px;
+  }
+
+  .translate {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    border-top: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: auto;
+    transform: translate(0.8);
+  }
+  
+  .text-bg {
+    width: 80%;
+    margin-left: 15%;
+    margin-bottom: -5px;
+  }
+
+  .hamburger-content {
+    transform: translate(0.7);
+    top:0;
+  }
+
+  .hamburger-content ul li {
+    margin: 1px;
+    padding: 2px;
+  }
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .flex-box {
+    margin-left: -20%;
   }
 
   .cardList {
