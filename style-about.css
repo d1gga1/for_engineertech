@@ -982,22 +982,6 @@ color: #878787;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1400px) {
-
-  .footer {
-    width: 100vw;
-  }
-
-  .flex-box {
-    justify-content: space-between;
-    width: 100%;
-  }
-
-
-  .cardList {
-    transform: scale(0.9);
-  }
-}
 
 @media screen and (max-width: 1023px) and (orientation: landscape) {
 
@@ -1049,7 +1033,7 @@ color: #878787;
 
 @media screen and (min-width: 1024px) and (max-width: 1400px) {
   .flex-box {
-    margin-left: -20%;
+    margin-left: 5%;
   }
 
   .cardList {
